@@ -14,12 +14,14 @@ import istanbul.gamelab.ngdroid.base.BaseCanvas;
 
 
 public class GameCanvas extends BaseCanvas {
-
     private static final int GRIDSIZE = 6;
 
     private int width, height;
     private int[] grid, state;
     private Paint paint;
+
+    private boolean istouched;
+    private long touchcounter, maxtime;
 
     public GameCanvas(NgApp ngApp) {
         super(ngApp);
@@ -35,6 +37,8 @@ public class GameCanvas extends BaseCanvas {
 
         paint = new Paint();
         paint.setColor(Color.WHITE);
+
+        maxtime = 1000;
     }
 
     public void update() {
@@ -70,6 +74,13 @@ public class GameCanvas extends BaseCanvas {
                grid[(y + 1) * width + x] + grid[(y + 1) * width + (x + 1)];
     }
 
+    private void set(int x, int y, String s) {
+        int pos = 0;
+        for(char c : s.toCharArray()) {
+            state[y * width + x + pos++] = c == '#' ? 1 : 0;
+        }
+    }
+
     public void keyPressed(int key) {
 
     }
@@ -95,6 +106,24 @@ public class GameCanvas extends BaseCanvas {
     }
 
     public void touchDown(int x, int y, int id) {
+        if(!istouched) {
+            istouched = true;
+            touchcounter = System.currentTimeMillis();
+        } else if(System.currentTimeMillis() - touchcounter < maxtime) {
+            for(int i = 0; i < width * height; i++) state[i] = 0;
+            // Gosper Glider Gun
+            set(60, 45, "........................#............");
+            set(60, 46, "......................#.#............");
+            set(60, 47, "............##......##............##.");
+            set(60, 48, "...........#...#....##............##.");
+            set(60, 49, "##........#.....#...##...............");
+            set(60, 50, "##........#...#.##....#.#............");
+            set(60, 51, "..........#.....#.......#............");
+            set(60, 52, "...........#...#.....................");
+            set(60, 53, "............##.......................");
+        } else {
+            touchcounter = System.currentTimeMillis();
+        }
     }
 
     public void touchMove(int x, int y, int id) {
