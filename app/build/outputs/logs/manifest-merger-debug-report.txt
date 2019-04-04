@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\73edb4653d030764abb46bcc0ffac4e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a6fa4b38aad38de9029f415a42a43740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dafedca1af3eb1a6a8cde15cf721fe51\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\38b2c1374e48de3f74dc188a8e859753\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0e6eb9b480ac7a5a00adc5fc8f0ee4c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\350955d80bb6aef2efc502ea171993df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fdc48fc1dd9f691b466f62d4819bdd5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fa4beb13c753113af8cb9bd6d5d89167\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\75a38a00d14bd03b362236269e0b41f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\764e0c25080d20a6c9e2cca5af87160f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a878ac5f3edd88d53480fae36c41546b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cfa72fc91084af3fcb6abbf3b191b792\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f9e43c7cd389cee24ae008c879125533\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8d954804084a1c66b0bc1c827178590a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4d14ac3a229616bbecbf81657f90c2c8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\84a2df1cdf87c5efba8d356f21c32a82\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d80984e559f0960c6c8e2a5ed186996\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea6dd881eae68c870f738215349c44fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f907a6d0a3a424140190309175c7a385\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4917501ff1a607fd22d5d0300cad739\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8308d48c700e06a6a81965d80ba0210\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e375cba72498a5d3b4019dc942fb8a28\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58a64597797116f1aa623fafefed6cd9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d46fe7368729338c83652c1af1352994\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c44c80ddae9bd0d0d63f8e30111960b\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:6:22-65
+supports-screens
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:8:5-13:36
+	android:largeScreens
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:11:9-36
+	android:smallScreens
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:9:9-37
+	android:normalScreens
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:10:9-37
+	android:xlargeScreens
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:8:23-49
+	android:anyDensity
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:13:9-34
+application
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:15:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4d14ac3a229616bbecbf81657f90c2c8\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4d14ac3a229616bbecbf81657f90c2c8\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:20:9-79
+activity#com.mycompany.myngdroidapp.GameActivity
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:21:9-28:20
+	android:screenOrientation
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:22:13-55
+	android:configChanges
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:22:56-91
+	android:theme
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:22:92-130
+	android:name
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:21:19-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\73edb4653d030764abb46bcc0ffac4e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\73edb4653d030764abb46bcc0ffac4e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a6fa4b38aad38de9029f415a42a43740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a6fa4b38aad38de9029f415a42a43740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dafedca1af3eb1a6a8cde15cf721fe51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\dafedca1af3eb1a6a8cde15cf721fe51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\38b2c1374e48de3f74dc188a8e859753\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\38b2c1374e48de3f74dc188a8e859753\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0e6eb9b480ac7a5a00adc5fc8f0ee4c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0e6eb9b480ac7a5a00adc5fc8f0ee4c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\350955d80bb6aef2efc502ea171993df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\350955d80bb6aef2efc502ea171993df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fdc48fc1dd9f691b466f62d4819bdd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0fdc48fc1dd9f691b466f62d4819bdd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fa4beb13c753113af8cb9bd6d5d89167\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\fa4beb13c753113af8cb9bd6d5d89167\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\75a38a00d14bd03b362236269e0b41f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\75a38a00d14bd03b362236269e0b41f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\764e0c25080d20a6c9e2cca5af87160f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\764e0c25080d20a6c9e2cca5af87160f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a878ac5f3edd88d53480fae36c41546b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a878ac5f3edd88d53480fae36c41546b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cfa72fc91084af3fcb6abbf3b191b792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\cfa72fc91084af3fcb6abbf3b191b792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f9e43c7cd389cee24ae008c879125533\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f9e43c7cd389cee24ae008c879125533\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8d954804084a1c66b0bc1c827178590a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8d954804084a1c66b0bc1c827178590a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\400962b92aeb95186d1dbb0a2c58edfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4d14ac3a229616bbecbf81657f90c2c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4d14ac3a229616bbecbf81657f90c2c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\84a2df1cdf87c5efba8d356f21c32a82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\84a2df1cdf87c5efba8d356f21c32a82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d80984e559f0960c6c8e2a5ed186996\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d80984e559f0960c6c8e2a5ed186996\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea6dd881eae68c870f738215349c44fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ea6dd881eae68c870f738215349c44fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f907a6d0a3a424140190309175c7a385\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f907a6d0a3a424140190309175c7a385\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4917501ff1a607fd22d5d0300cad739\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a4917501ff1a607fd22d5d0300cad739\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8308d48c700e06a6a81965d80ba0210\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8308d48c700e06a6a81965d80ba0210\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e375cba72498a5d3b4019dc942fb8a28\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e375cba72498a5d3b4019dc942fb8a28\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58a64597797116f1aa623fafefed6cd9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58a64597797116f1aa623fafefed6cd9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d46fe7368729338c83652c1af1352994\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d46fe7368729338c83652c1af1352994\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c44c80ddae9bd0d0d63f8e30111960b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Huseyin Sencan\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c44c80ddae9bd0d0d63f8e30111960b\AndroidManifest.xml:20:5-44
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\GameOfLife\app\src\main\AndroidManifest.xml
