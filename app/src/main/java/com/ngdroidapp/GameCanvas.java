@@ -3,10 +3,8 @@ package com.ngdroidapp;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.widget.GridLayout;
 
 import istanbul.gamelab.ngdroid.base.BaseCanvas;
-import istanbul.gamelab.ngdroid.util.Log;
 
 
 /**
@@ -17,11 +15,10 @@ import istanbul.gamelab.ngdroid.util.Log;
 
 public class GameCanvas extends BaseCanvas {
 
-    private static final int GRIDSIZE = 24;
+    private static final int GRIDSIZE = 6;
 
     private int width, height;
-    private boolean[] grid;
-
+    private int[] grid, state;
     private Paint paint;
 
     public GameCanvas(NgApp ngApp) {
@@ -31,25 +28,46 @@ public class GameCanvas extends BaseCanvas {
     public void setup() {
         width = getWidth() / GRIDSIZE;
         height = getHeight() / GRIDSIZE;
-        grid = new boolean[width * height];
+        grid = new int[width * height];
+        state = new int[width * height];
+
+        for(int i = 0; i < width * height; i++) state[i] = Math.random() > 0.5f ? 1 : 0;
 
         paint = new Paint();
         paint.setColor(Color.WHITE);
     }
 
     public void update() {
+        for(int i = 0; i < width * height; i++) grid[i] = state[i];
+        for(int x = 1; x < width - 1; x++) {
+            for(int y = 1; y < height - 1; y++) {
+                int neighbors = getNeighbors(x, y);
 
+                if(grid[y * width + x] == 1) {
+                    state[y * width + x] = (neighbors == 2 || neighbors == 3) ? 1 : 0;
+                } else {
+                    state[y * width + x] = (neighbors == 3) ? 1 : 0;
+                }
+            }
+        }
     }
 
     public void draw(Canvas canvas) {
         canvas.drawColor(Color.BLACK);
-        for(int x = 0; x < width; x++) {
-            for(int y = 0; y < height; y++) {
-                if(grid[y * width + x]) {
-                    canvas.drawRect(x * GRIDSIZE, y * GRIDSIZE, x * GRIDSIZE + GRIDSIZE, y * GRIDSIZE + + GRIDSIZE, paint);
+        for(int x = 1; x < width - 1; x++) {
+            for(int y = 1; y < height - 1; y++) {
+                if (grid[y * width + x] == 1) {
+                    canvas.drawRect(x * GRIDSIZE, y * GRIDSIZE, x * GRIDSIZE + GRIDSIZE, y * GRIDSIZE + GRIDSIZE, paint);
                 }
             }
         }
+    }
+
+    private int getNeighbors(int x, int y) {
+        return grid[(y - 1) * width + (x - 1)] + grid[(y - 1) * width + x] +
+               grid[(y - 1) * width + (x + 1)] + grid[y * width + (x - 1)] +
+               grid[y * width + (x + 1)] + grid[(y + 1) * width + (x - 1)] +
+               grid[(y + 1) * width + x] + grid[(y + 1) * width + (x + 1)];
     }
 
     public void keyPressed(int key) {
